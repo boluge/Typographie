@@ -11,7 +11,7 @@ $textColor:#666; // Couleur du texte
 $blockquoteColor:#999; // Couleur des citations
 $borderBqColor:#bada55; // Couleur de la bordure du Blockquote
 
-$hrColor:#ddd; // Couleur du hr
+$hrColor:#ddd;
 
 @import url(http://fonts.googleapis.com/css?family=PT+Sans|Kreon);
 
@@ -25,6 +25,7 @@ $Hligne:$lineHeight * 1em;
 $margeBottom:$FontSize * $lineHeight * 1px;
 
 body {
+	display: none;
 	font-size: $TypoBase;
 	line-height: $Hligne;
 	letter-spacing: 1px;
