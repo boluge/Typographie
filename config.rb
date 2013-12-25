@@ -21,7 +21,8 @@ output_style = :compressed
 line_comments = false
 
 if environment != :production
-    sass_options = { :debug_info => true }
+    enable_sourcemaps = true
+	sass_options = {:sourcemap => true }
 end
 
 # If you prefer the indented syntax, you might want to regenerate this
