@@ -20,27 +20,33 @@
 
 /***************************/
 
-$FontSize: 14; // en px
-$lineHeight:1.5; // en em
+$FontSize: 			14; // en px
+$lineHeight: 		1.5; // en em
 
-$titleColor:#222; // Couleur des titres
-$textColor:#666; // Couleur du texte
-$blockquoteColor:#999; // Couleur des citations
-$borderBqColor:#bada55; // Couleur de la bordure du Blockquote
+$titleColor: 		#222; // Couleur des titres
+$textColor: 		#666; // Couleur du texte
+$blockquoteColor: 	#999; // Couleur des citations
+$borderBqColor: 	#bada55; // Couleur de la bordure du Blockquote
 
-$hrColor:#ddd;
+$hrColor: 			#ddd;
 
 @import url(http://fonts.googleapis.com/css?family=PT+Sans|Kreon);
 
-$titleFont:'Kreon', serif;
-$textFont:'PT Sans', sans-serif;
+$titleFont: 		'Kreon', serif;
+$textFont: 			'PT Sans', sans-serif;
 
 /***************************/
 
+<<<<<<< Updated upstream
 $TypoBase:$FontSize * 1px;
 $Hligne:$lineHeight * 1em;
 $Hlignerem:$lineHeight * 1rem;
 $margeBottom:$FontSize * $lineHeight * 1px;
+=======
+$TypoBase: 			$FontSize * 1px;
+$Hligne: 			$lineHeight * 1em;
+$margeBottom: 		$FontSize * $lineHeight * 1px;
+>>>>>>> Stashed changes
 
 body {
 	font-size: $TypoBase;
