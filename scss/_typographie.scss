@@ -39,11 +39,13 @@ $textFont:'PT Sans', sans-serif;
 
 $TypoBase:$FontSize * 1px;
 $Hligne:$lineHeight * 1em;
+$Hlignerem:$lineHeight * 1rem;
 $margeBottom:$FontSize * $lineHeight * 1px;
 
 body {
 	font-size: $TypoBase;
 	line-height: $Hligne;
+	line-height: $Hlignerem;
 	letter-spacing: 1px;
 	font-family: $textFont;
 	color:$textColor;
