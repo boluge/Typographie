@@ -3,7 +3,7 @@
 body{
 	background-size: $Hligne $Hligne;
 	@include background-image(linear-gradient(top,#fff, #fff 96%,#efefef 97%));
-	background-position: 0 -6px;
+	background-position: 0 -5px;
 }
 .container {
 	width: 640px;

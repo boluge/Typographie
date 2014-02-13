@@ -30,28 +30,26 @@ $borderBqColor: 	#bada55; // Couleur de la bordure du Blockquote
 
 $hrColor: 			#ddd;
 
-@import url(http://fonts.googleapis.com/css?family=PT+Sans|Kreon);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans|Kreon|Lato);
 
 $titleFont: 		'Kreon', serif;
-$textFont: 			'PT Sans', sans-serif;
+// $textFont: 			'PT Sans', sans-serif;
+$textFont: 			'Lato', sans-serif;
 
 /***************************/
 
-<<<<<<< Updated upstream
 $TypoBase:$FontSize * 1px;
 $Hligne:$lineHeight * 1em;
-$Hlignerem:$lineHeight * 1rem;
 $margeBottom:$FontSize * $lineHeight * 1px;
-=======
+// =======
 $TypoBase: 			$FontSize * 1px;
 $Hligne: 			$lineHeight * 1em;
 $margeBottom: 		$FontSize * $lineHeight * 1px;
->>>>>>> Stashed changes
+
 
 body {
 	font-size: $TypoBase;
 	line-height: $Hligne;
-	line-height: $Hlignerem;
 	letter-spacing: 1px;
 	font-family: $textFont;
 	color:$textColor;
